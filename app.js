@@ -79,7 +79,7 @@ app.post("/api/login", (req, res) => {
   });
 });
 
-app.put(`/api/update`, (req, res) => {
+app.put("/api/update", (req, res) => {
   console.log(req.body);
   (id = req.body._id),
     (title = req.body.title),
